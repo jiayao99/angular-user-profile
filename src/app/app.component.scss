@@ -1,0 +1,53 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.user-card {
+  border: 1px solid lightsalmon;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  width: 80%;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  background-color: #ccc;
+}
+
+.user-avatar {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name,
+.user-email {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user-email {
+  font-size: 14px;
+  color: #333;
+}
